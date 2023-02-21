@@ -1,0 +1,184 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+   
+.continar {
+  width: 100%;
+  height: 100vh;
+  background:url(carousel-1.jpg);
+  background-position: center;
+  background-size: cover;
+  animation: ucl 12s  infinite;
+  
+
+}
+
+
+.banner {
+  width: 100%;
+  height: 90px;
+ position: fixed;
+ display: flex;
+ justify-content: space-between;
+ margin: auto;
+ align-items: center;
+ background-color: rgb(14, 5, 120);
+ opacity: 0;
+
+}
+.fa-solid {
+  color: white;
+  font-size: x-large  
+   
+}
+
+@keyframes ucl {
+
+  0%{
+    background-image: url(carousel-1.jpg);
+     background-size: cover;
+
+  }
+
+    40%{
+      background-image: url(880d813f05620fc4cf3f71e629d59bb6.jpg);
+       background-size: cover;
+
+    }
+
+
+    80%{
+      background-image: url(uefa_champions_league__2022___2023_by_jafarjeef_dfb9jvz-fullview.jpg);
+      background-size: cover;
+      
+    }
+   
+    100%{
+      background: url(kylyan\ mpabbe.jpg);
+      background-size: cover;
+    }
+
+  
+
+}
+
+ #navbar {
+    position: absolute;
+    width: 50%;
+    height: 200px;
+    background-image: url(suuuu.gif);
+    background-size: cover;
+    border-radius: 20px;
+    right: 0;
+    top: 80px;
+    opacity: 0;
+    
+   
+
+
+ }
+ button {
+  border: none;
+  background-color: transparent;
+  margin-right: 20px;
+  
+   
+ }
+ .logo {
+  margin-left: 20px;
+ }
+
+ a {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  color: white;
+  font-size: large;
+  margin:6px 0px 0px 6px;
+
+
+  
+ }
+
+ .hide {
+  display: none;
+ }
+
+ .second {
+   width: 100%;
+   height: 1200px;
+   background: url(first.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+ }
+ .third {
+  width: 100%;
+  height: 150px;
+  background: url(stefan-radenkovic-uefa-ball-gif.gif);
+  background-position: center;
+  background-size: cover;
+  
+
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+.groupea {
+   width: 50% ;
+   height: 185px;
+   background: url(groupe\ a.png);
+   background-repeat: no-repeat;
+   margin: auto;
+   padding: 20px ;
+
+ }
+ .groupeb {
+  width: 50% ;
+  height: 185px;
+  margin: auto;
+  background: url(groupe\ b.png);
+  background-repeat: no-repeat;
+  padding: 20px ;
+
+}
+ .groupec {
+  width: 50% ;
+  height: 185px;
+  margin: auto;
+  background: url(groupe\ c.png);
+  background-repeat: no-repeat;
+  padding: 20px ;
+  
+ }
+ .grouped {
+  width: 50% ;
+  height: 185px;
+  margin: auto;
+  background: url(groupe\ D.png);
+  background-repeat: no-repeat;
+  padding: 20px ;
+ }
+
+
+
+#loader {
+  width: 100%;
+  height: 100vh;
+  background-image: url(messi.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+
+
+
